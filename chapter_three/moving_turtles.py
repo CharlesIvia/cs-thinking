@@ -1,9 +1,11 @@
 import turtle
+
 wn = turtle.Screen()
 wn.bgcolor("black")
 tess = turtle.Turtle()
 tess.shape("turtle")
 tess.color("yellow")
+tess.speed(10)
 
 tess.penup()
 size = 20
